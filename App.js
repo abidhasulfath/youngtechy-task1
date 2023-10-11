@@ -54,10 +54,9 @@ const App = () => {
       // backgroundColor:"yellow",
      
     }}>
-    <ImageBackground style={{
-      flex:1,
-      // justifyContent:"center",
-      resizemMode:"cover",
+    <Image style={{
+      width:"100",
+      height:500,
       
      
     }}
@@ -65,9 +64,8 @@ const App = () => {
       >
      
        
-      </ImageBackground>
-      {/* <View 
-      > */}
+      </Image>
+     
       <TouchableOpacity style={{
         height:60,
       width:300,
@@ -76,7 +74,8 @@ const App = () => {
       alignSelf:"center",
       justifyContent:"center",
       marginBottom:10,
-     
+     position:"absolute",
+     bottom:0
       }}>
       
       <Text style=
